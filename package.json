@@ -1,0 +1,34 @@
+{
+  "name": "voting-server",
+  "version": "1.0.0",
+  "description": "Server side for tutorial application using Flux, React, Immutable, ES6, Babel, Socket.io, Webpack, and Mocha. http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive --require ./test/test_helper.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BriptimusPrimus/voting-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BriptimusPrimus/voting-server/issues"
+  },
+  "homepage": "https://github.com/BriptimusPrimus/voting-server#readme",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.5.3",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "immutable": "^3.7.6"
+  }
+}
